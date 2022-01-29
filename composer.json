@@ -1,0 +1,24 @@
+{
+  "name": "pouyabh/setignore",
+  "description": "set git ignore automatically",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "pouyabh\\setignore\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "pouyabh\\setignore\\SetIgnoreServiceProvider"
+      ]
+    }
+  },
+  "authors": [
+    {
+      "name": "pouyabh",
+      "email": "pouyabh1380@gmail.com"
+    }
+  ],
+  "require": {}
+}
