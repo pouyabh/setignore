@@ -8,7 +8,7 @@ class SetIgnoreServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        \pouyabh\setignore\setignore::SetIgnore();
+        setignore::SetIgnore();
     }
 
     public function register()
